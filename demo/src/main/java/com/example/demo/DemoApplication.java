@@ -22,7 +22,7 @@ public class DemoApplication  {
 		log.info("Starting Demo Application ");
 		Class[] configClasses = {DemoApplication.class, AppConfig.class};
 		ApplicationContext ctx = SpringApplication.run(configClasses, args);
-		SpringApplication.run(configClasses, args);
+		//SpringApplication.run(configClasses, args);
 
 		log.info("Initialized config classes, JAX-RS server endpoint & resources as Spring Beans");
 
